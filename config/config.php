@@ -1,7 +1,7 @@
 <?php
 
-use Nwidart\Modules\Activators\FileActivator;
-use Nwidart\Modules\Commands;
+use AdUpFastcheckouts\adupiov3modulesmanager\Activators\FileActivator;
+use AdUpFastcheckouts\adupiov3modulesmanager\Commands;
 
 return [
 
@@ -27,7 +27,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path('vendor/nwidart/laravel-modules/src/Commands/stubs'),
+        'path' => base_path('vendor/sanjayaharshana/laravel-modules/src/Commands/stubs'),
         'files' => [
             'routes/web' => 'Routes/web.php',
             'routes/api' => 'Routes/api.php',
@@ -213,7 +213,7 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'nwidart',
+        'vendor' => 'sanjayaharshana',
         'author' => [
             'name' => 'Nicolas Widart',
             'email' => 'n.widart@gmail.com',
